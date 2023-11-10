@@ -3,7 +3,7 @@ Type: Package
 Title: A brief title for your package
 Version: 0.1.0
 Author: Mingming Zhang
-Maintainer: zhmm@student.ubc.cal
+Maintainer: Mingming Zhang <zhmm@student.ubc.ca>
 Description: This function can compute the range of a column by using the column name from a dataset
 License: MIT + file LICENSE
 Encoding: UTF-8
