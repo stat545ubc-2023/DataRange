@@ -1,4 +1,6 @@
 
+\#Title: README of Package DataRange
+
 \#Installation
 install_github(“<https://github.com/stat545ubc-2023/DataRange>”, ref =
 “0.1.0”)
@@ -12,14 +14,14 @@ devtools::install_github("https://github.com/stat545ubc-2023/DataRange")
 
     ## 
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/zb/m371tt0d16b_8hxnq07q21dm0000gn/T/RtmpNK56wE/remotesb46a5e8a302e/stat545ubc-2023-DataRange-65a99d3/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/zb/m371tt0d16b_8hxnq07q21dm0000gn/T/Rtmp9U4Sfx/remotesb5a35eb3cd1/stat545ubc-2023-DataRange-770564d/DESCRIPTION’ ... OK
     ## * preparing ‘DataRange’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘DataRange_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/zb/m371tt0d16b_8hxnq07q21dm0000gn/T/RtmpET26F7/temp_libpathadee5c03a0f8'
+    ## Installing package into '/private/var/folders/zb/m371tt0d16b_8hxnq07q21dm0000gn/T/RtmpET26F7/temp_libpathadee73741403'
     ## (as 'lib' is unspecified)
 
 \#DESCRIPTION Package: DataRange Type: Package Title: Obtain the range

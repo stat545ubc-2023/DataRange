@@ -1,6 +1,8 @@
 ---
 output: github_document
 ---
+#Title: README of Package DataRange
+
 
 #Installation 
 install_github("https://github.com/stat545ubc-2023/DataRange", ref = "0.1.0")
