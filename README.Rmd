@@ -1,3 +1,15 @@
+---
+output: github_document
+---
+
+#Installation 
+install_github("https://github.com/stat545ubc-2023/DataRange", ref = "0.1.0")
+```{r}
+# install.packages("devtools")
+devtools::install_github("https://github.com/stat545ubc-2023/DataRange")
+```
+
+#DESCRIPTION 
 Package: DataRange
 Type: Package
 Title: Obtain the range of one column
