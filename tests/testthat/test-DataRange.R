@@ -5,7 +5,7 @@ test_that("Data_Range calculates range for vector of numeric data without NA", {
   data_frame <- data.frame(data_vector = c(1, 2, 3, 4, 5))
   
   # Call the Data_Range function on the sample data frame
-  result <- Data_Range(data_frame, "data_vector")
+  result <- DataRange(data_frame, "data_vector")
   
   # Define the expected result based on manual calculation
   expected_result <- "range= 1 to 5 number of NA= 0"
@@ -21,7 +21,7 @@ test_that("Data_Range calculates range for vector of numeric data including NA",
   data_frame <- data.frame(data_vector = c(1, 2, NA, 4, NA))
   
   # Call the Data_Range function on the sample data frame
-  result <- Data_Range(data_frame, "data_vector")
+  result <- DataRange(data_frame, "data_vector")
   
   # Define the corrected expected result, indicating that there are 2 NA values
   expected_result <- "range= 1 to 4 number of NA= 2"
@@ -38,7 +38,7 @@ test_that("Data_Range handles an empty vector correctly", {
   empty_data_frame <- data.frame(empty_vector = numeric(0))
   
   # Call the Data_Range function on the empty data frame
-  result <- Data_Range(empty_data_frame, "empty_vector")
+  result <- DataRange(empty_data_frame, "empty_vector")
   
   # Define the expected result for an empty vector
   expected_result <- "Empty vector provided"
