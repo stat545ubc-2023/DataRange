@@ -32,3 +32,21 @@ Suggests:
     testthat (>= 3.0.0),
     tidyverse
 Config/testthat/edition: 3
+
+#Usage
+
+#Example 1: In this example, use DataRange to obtain the range of column "texture_mean" in dataset "cancer_sample" as well as the NA number
+```{r}
+#show the minum and maximun values in "texture_mean" column in cancer_sample dataset
+library(datateachr)
+library(dplyr)
+library(DataRange)
+DataRange(cancer_sample,"texture_mean")
+glimpse(DataRange(cancer_sample,"texture_mean"))
+```
+
+#Example 2: In this example, use DataRange to obtain the range of column "diameter" in the dataset of vancouver_trees
+```{r}
+diameter_range_Vtree<-DataRange(vancouver_trees,"diameter")
+paste(diameter_range_Vtree)
+```
